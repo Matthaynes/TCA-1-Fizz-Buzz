@@ -1,9 +1,28 @@
 function fizzbuzz(n) {
-	// Write your code here
-
-
+	
+while(n<16) {
+	if (n/3 == i){
+	if (n/5 == i){
+		console.log("FizzBuzz"); n++
+	}
+	else {
+		console.log("Fizz"); n++
+	}
+}
+if (n/5 == i){
+	if(n/3 == i){
+		console.log("FizzBuzz"); n++
+	}
+	else {
+		console.log("Buzz"); n++
+	}
+}
+else if (n/5 == i){
+	console.log(n); n++
+}
+}
 	// Leave the console.log below at the bottom of the function
-	console.log("-------------");
+	console.log("fizzbuzz(n)");
 }
 
 fizzbuzz(16);
