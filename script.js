@@ -9,7 +9,7 @@ while(n<16) {
 		console.log("Fizz"); n++
 	}
 }
-if (Number.isInteger(n/5 && n>0)){
+if (Number.isInteger(n/5) && n>0){
 	if(Number.isInteger(n/3) && n>0){
 		console.log("FizzBuzz"); n++
 	}
