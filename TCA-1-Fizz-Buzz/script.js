@@ -1,23 +1,23 @@
 function fizzbuzz(n) {
 	
 while(n<16) {
-	if (n/3 == i){
-	if (n/5 == i){
+	if (Number.isInteger(n/3)){
+	if (Number.isInteger(n/5)){
 		console.log("FizzBuzz"); n++
 	}
 	else {
 		console.log("Fizz"); n++
 	}
 }
-if (n/5 == i){
-	if(n/3 == i){
+if (Number.isInteger(n/5)){
+	if(Number.isInteger(n/3)){
 		console.log("FizzBuzz"); n++
 	}
 	else {
 		console.log("Buzz"); n++
 	}
 }
-else if (n/5 == i){
+else if (Number.isInteger(n)){
 	console.log(n); n++
 }
 }
