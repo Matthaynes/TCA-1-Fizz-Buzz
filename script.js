@@ -17,12 +17,12 @@ if (Number.isInteger(n/5)){
 		console.log("Buzz"); n++
 	}
 }
-else if (Number.isInteger(n)){
+else if (Number.isInteger(n) & &){
 	console.log(n); n++
 }
 }
 	// Leave the console.log below at the bottom of the function
-	console.log("fizzbuzz(n)");
+	console.log(------);
 }
 
 fizzbuzz(16);
