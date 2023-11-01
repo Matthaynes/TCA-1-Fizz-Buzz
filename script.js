@@ -1,5 +1,5 @@
 function fizzbuzz(n) {
-	
+	n=[]
 while(n<16) {
 	if (Number.isInteger(n/3)){
 	if (Number.isInteger(n/5)){
