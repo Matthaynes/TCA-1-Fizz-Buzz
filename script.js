@@ -17,7 +17,7 @@ if (Number.isInteger(n/5)){
 		console.log("Buzz"); n++
 	}
 }
-else if (Number.isInteger(n) & &){
+else if (Number.isInteger(n) & & n>0){
 	console.log(n); n++
 }
 }
