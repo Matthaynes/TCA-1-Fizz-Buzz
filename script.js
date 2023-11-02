@@ -1,34 +1,25 @@
 function fizzbuzz(n) {
-	n=[]
-while(n<16) {
-	if (Number.isInteger(n>0)){
-	if (Number.isInteger(n/3)) {
-	if (Number.isInteger(n/5)){
-		console.log("FizzBuzz"); n++
-	}
-	else {
-		console.log("Fizz"); n++
-	}
-}
-if (Number.isInteger(n/5)){
-	if(Number.isInteger(n/3)){
-		console.log("FizzBuzz"); n++
-	}
-	else {
-		console.log("Buzz"); n++
-	}
-}
-else if (Number.isInteger(n)) {
-	console.log(n); n++
-}
-}
-}
-	// Leave the console.log below at the bottom of the function
-	console.log("------");
-}
 
-fizzbuzz(16);
-fizzbuzz(25);
+  for (let i = 1; i <= n; i++) {
+    if (Number.isInteger(i/3) && Number.isInteger(i/5)){
+      console.log("FizzBuzz");
+    }
+    else if (Number.isInteger(i/3)) {
+      console.log("Fizz");
+    }
+    else if (Number.isInteger(i/5)){
+      console.log("Buzz");
+    }
+    else {
+      console.log(i);
+    }
+  }
+    // Leave the console.log below at the bottom of the function
+    console.log("-------");
+  }
+
+  fizzbuzz(16);
+  fizzbuzz(25);
 
 
 // Instructions  
