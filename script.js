@@ -24,7 +24,7 @@ else if (Number.isInteger(n)) {
 }
 }
 	// Leave the console.log below at the bottom of the function
-	console.log(------);
+	console.log("------");
 }
 
 fizzbuzz(16);
